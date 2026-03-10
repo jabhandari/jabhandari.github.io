@@ -1,8 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f8fafc;
+  --background: #f4f7fb;
   --foreground: #0f172a;
+  --surface: rgba(255, 255, 255, 0.88);
+  --surface-strong: #ffffff;
+  --muted: #475569;
+  --border: rgba(148, 163, 184, 0.28);
+  --accent: #0f766e;
+  --accent-strong: #155e75;
 }
 
 @theme inline {
@@ -14,13 +20,26 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #020617;
-    --foreground: #e2e8f0;
+    --background: #07111f;
+    --foreground: #e5edf6;
+    --surface: rgba(15, 23, 42, 0.82);
+    --surface-strong: rgba(15, 23, 42, 0.96);
+    --muted: #bfd0e4;
+    --border: rgba(148, 163, 184, 0.22);
+    --accent: #67e8f9;
+    --accent-strong: #a5f3fc;
   }
 }
 
+html {
+  color-scheme: light dark;
+}
+
 body {
-  background: var(--background);
+  background:
+    radial-gradient(circle at top, rgba(34, 211, 238, 0.14), transparent 34%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent 26%),
+    var(--background);
   color: var(--foreground);
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   min-height: 100vh;
