@@ -1,6 +1,7 @@
 export default function Hero() {
     return (
-        <section className="relative flex h-[68vh] min-h-[460px] w-full items-center md:h-[74vh]">         <div
+        <section className="relative flex h-[68vh] min-h-[460px] w-full items-center md:h-[74vh]">    
+             <div
             className="absolute inset-0 bg-cover bg-center"
             style={{
                 backgroundImage: "url('/images.jpg')",
@@ -14,8 +15,9 @@ export default function Hero() {
                         Juhi Bhandari
                     </p>
                     <p className="mt-8 text-lg font-medium text-pretty text-gray-300 sm:text-xl/8">
-                        Full-Stack Developer focused on clean architecture,
-                        scalable APIs, and polished user experience.
+                        I'm a software developer passionate about building full-stack applications and solving real-world problems through code.
+
+                        I enjoy working with modern web technologies and continuously improving my skills in backend systems, APIs, and scalable applications.
                     </p>
                 </div>
 
@@ -24,7 +26,7 @@ export default function Hero() {
                         href="https://www.linkedin.com/in/juhi-bhandari-4baa61261/"
                         target="_blank"
                         rel="noreferrer"
-                        className="rounded-full bg-cyan-500 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-cyan-400"
+                        className="rounded-full border border-slate-300/40 px-5 py-2.5 text-sm font-semibold text-slate-100 transition hover:bg-white/10"
                     >
                         LinkedIn
                     </a>
@@ -35,6 +37,22 @@ export default function Hero() {
                         className="rounded-full border border-slate-300/40 px-5 py-2.5 text-sm font-semibold text-slate-100 transition hover:bg-white/10"
                     >
                         GitHub
+                    </a>
+                    <a
+                        href="mailto:juhibhandari774@gmail.com"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="rounded-full border border-slate-300/40 px-5 py-2.5 text-sm font-semibold text-slate-100 transition hover:bg-white/10"
+                    >
+                        Email
+                    </a>
+                    <a
+                        href="/Juhi Bhandari.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="rounded-full border border-slate-300/40 px-5 py-2.5 text-sm font-semibold text-slate-100 transition hover:bg-white/10"
+                    >
+                        Resume
                     </a>
                 </div>
             </div>

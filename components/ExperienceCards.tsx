@@ -26,9 +26,6 @@ export default function ExperienceCards({
             {job.team}
         </p>
       )}
-     
-
-     
         <ul className="mt-4 list-disc space-y-1 pl-5 text-sm text-[var(--muted)]">
             {job.highlights.map((point,index)=>(
                 <li key={index}>{point}</li>

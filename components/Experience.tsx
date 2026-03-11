@@ -3,7 +3,7 @@ import ExperienceCards from "./ExperienceCards"
 
 export default function Experience(){
     return(
-        <section id="experience" className="mx-auto w-full max-w-6xl px-6 py-16">
+        <section className="mx-auto w-full max-w-6xl px-6 py-16">
         <div className="mb-8">
             <p className="text-sm font-semibold uppercase tracking-widest text-[var(--accent-strong)]">Career</p>
             <h2 className="mt-2 text-3xl font-bold text-[var(--foreground)]">Experience</h2>
