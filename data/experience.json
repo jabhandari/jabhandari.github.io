@@ -6,11 +6,9 @@
     "period": "Dec 2025 - Present",
     "team": "Cash Management Technology",
     "highlights": [
-      "Traced message flows and analyzed payload mappings to identify transaction processing errors.",
-      "Updated ESQL transformations in integration flows to correct data handling issues.",
-      "Diagnosed environment inconsistencies between local and UAT systems using SQL validation.",
-      "Updated workflow definitions and state-machine diagrams for payment processing systems.",
-      "Modified backend integration flows to support new transaction-processing requirements."
+      "Debugged and resolved transaction-processing failures across 4+ IBM App Connect integration flows by tracing message payloads and rewriting ESQL transformations to correct data-mapping logic across payment workflows.",
+      "Investigated discrepancies between local and UAT environments using SQL queries against transactional data, ensuring reliable promotion of fixes through multi-week release cycles to production.",
+      "Identified and corrected invalid transaction-state transitions in payment workflows by updating state-machine configurations within a high-availability enterprise payment platform."
     ]
   }
 ]
