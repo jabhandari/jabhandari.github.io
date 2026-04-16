@@ -15,7 +15,7 @@ export default function ExperienceCards({
   job:ExperienceData,
 }) {
   return (
-    <article className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_18px_45px_rgba(15,23,42,0.08)] backdrop-blur-sm">
+    <article className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_18px_45px_rgba(15,23,42,0.08)] backdrop-blur-sm transition hover:-translate-y-1 hover:bg-[var(--surface-strong)] hover:shadow-[0_24px_60px_rgba(15,23,42,0.16)]">
       <h3 className="text-xl font-semibold text-[var(--foreground)]">{job.role}</h3>
       <p className="mt-2 text-sm text-[var(--muted)]">
         {job.company} | {job.location} | {job.period}

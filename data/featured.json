@@ -1,0 +1,37 @@
+[
+    {
+        "event": "MLH Production Engineering Hackathon",
+        "title": "LatencyLens",
+        "description": "Full-stack journaling application for creating and managing daily entries with secure authentication and performance monitoring.",
+        "tech": [
+            "Node.js",
+            "Express",
+            "Docker",
+            "Prometheus",
+            "Grafana",
+            "Alertmanager",
+            "Webhooks",
+            "REST APIs",
+            "System Monitoring"
+        ],
+        "highlights": [
+          " Engineered a backend system to capture and analyze API latency metrics across endpoints for real-time performance visibility",
+          "Containerized services using Docker and integrated Prometheus for metrics scraping and time-series data collection",
+          "Built interactive dashboards in Grafana to visualize latency trends, peak loads, and system health",
+          "Configured Alertmanager with webhook integration to trigger notifications when services experienced downtime (>60s)",
+          "Designed a lightweight observability pipeline simulating real-world production monitoring and incident detection workflows",
+          "Achieved Top 3 placement (tie) in MLH Production Engineering Hackathon",
+          "Simulated production-grade monitoring and alerting workflows for proactive system reliability"
+        ],
+        "acheivements": [
+            "🏆 Achievements & Results",
+            "🥉 Overall: Tied for 3rd Place",
+            "⚡ Incident Response: Tied for 2nd Place",
+            "📈 Scalability: Tied for 2nd Place",
+            "🛡️ Reliability: Tied for 2nd Place",
+            "📝 Documentation: 🥇 Tied for 1st Place"
+        ],
+        "github": "https://github.com/jabhandari/LatencyLens",
+        "featured": true
+    }
+]
