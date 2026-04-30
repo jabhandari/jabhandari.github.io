@@ -1,10 +1,10 @@
 type featured = {
-    event: string;
+    event?: string;
     title: string;
     description: string;
     tech: string[];
     highlights: string[];
-    acheivements: string[];
+    achievements: string[];
     github: string;
 }
 export default function FeaturedCards({ feature }: { feature: featured }) {
@@ -28,7 +28,7 @@ export default function FeaturedCards({ feature }: { feature: featured }) {
                 ))}
             </ul>
             <ul className="mt-4 list-disc space-y-1 pl-5 text-sm text-[var(--muted)]">
-                {feature.acheivements.map((a, index) => (
+                {feature.achievements.map((a, index) => (
                     <li key={index}>{a}</li>
                 ))}
             </ul>

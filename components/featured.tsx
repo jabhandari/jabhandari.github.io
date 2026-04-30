@@ -6,7 +6,7 @@ export default function Featured(){
             <div className="mb-8">
                 <p className="text-sm font-semibold uppercase tracking-widest text-[var(--accent-strong)]">Highlights</p>
                 <h2 className="mt-2 text-3xl font-bold text-[var(--foreground)]"> 
-                      Featured Projects</h2>
+                      Featured</h2>
             </div>
             <div className="grid gap-6">
                 {featured.map((feature,index)=>(

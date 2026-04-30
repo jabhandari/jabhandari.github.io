@@ -2,12 +2,18 @@
   {
     "title": "DevFlow",
     "description": "Full-stack journaling application for creating and managing daily entries with secure authentication.",
-    "tech": ["React", "Vite", "Node.js", "Express", "MongoDB", "JWT"],
+    "tech": [
+      "React",
+      "Vite",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JWT"
+    ],
     "highlights": [
       "Built and deployed a full-stack developer productivity platform enabling users to log daily work entries (tasks, blockers, learnings) stored as date-indexed MongoDB documents.",
       "Implemented JWT-based authentication with bcrypt password hashing to secure REST API routes,and configured CORS for cross-origin deployment.",
       "Deployed frontend on Vercel and backend on Render with environment-based API configuration"
-
     ],
     "github": "https://github.com/jabhandari/devflow",
     "featured": true
@@ -15,7 +21,14 @@
   {
     "title": "QuickCard",
     "description": "Full-stack journaling application for creating and managing daily entries with secure authentication.",
-    "tech": ["React", "Vite", "Node.js", "Express", "MongoDB", "JWT"],
+    "tech": [
+      "React",
+      "Vite",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JWT"
+    ],
     "highlights": [
       "Built a digital networking card platform that generates shareable profile cards, QR codes, and downloadable PDF resumes from a single user profile form.",
       "Integrated Puppeteer on the Node.js backend to dynamically render and export server-side PDF resumes from HTML templates.",
@@ -27,12 +40,18 @@
   {
     "title": "Web E-Commerce Application",
     "description": "REST API and web application simulating an online store backend with product filtering and image uploads.",
-    "tech": ["Node.js", "Express", "JavaScript", "HTML", "CSS", "Cloudinary"],
+    "tech": [
+      "Node.js",
+      "Express",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Cloudinary"
+    ],
     "highlights": [
       "Developed a server-side e-commerce application with RESTful API endpoints supporting product browsing, category and date-based filtering, and new item creation",
       "Integrated Multer and Cloudinary for multipart image uploads, enabling cloud-hosted poduct images without local storage dependency",
       "Applied JSON-based persistence to manage product and category data, implementing routing and middleware patterns without a database dependency"
-
     ],
     "github": "https://github.com/jabhandari/ecommerceApp",
     "featured": true
@@ -40,7 +59,15 @@
   {
     "title": "Superstore Dashboard",
     "description": "Retail analytics project analyzing sales data and generating dashboards and visualizations.",
-    "tech": ["Python", "Pandas", "Matplotlib", "Power BI", "Tableau", "Excel", "Streamlit"],
+    "tech": [
+      "Python",
+      "Pandas",
+      "Matplotlib",
+      "Power BI",
+      "Tableau",
+      "Excel",
+      "Streamlit"
+    ],
     "highlights": [
       "Built an interactive sales analytics dashboard processing a ~10,000-row retail dataset with CSV/XLSX upload support and automatic schema detection for zero-configuration exploration.",
       "Implemented dynamic filters (region, category, date range) driving KPI cards, monthly sales trends, regional profit comparisons, and top-product rankings.",
@@ -52,7 +79,12 @@
   {
     "title": "MERN To-Do List Application",
     "description": "Task management application using the MERN stack with persistent storage.",
-    "tech": ["MongoDB", "Express", "React", "Node.js"],
+    "tech": [
+      "MongoDB",
+      "Express",
+      "React",
+      "Node.js"
+    ],
     "highlights": [
       "Implemented CRUD API endpoints connected to MongoDB.",
       "Connected React frontend with backend APIs using fetch/axios.",

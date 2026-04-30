@@ -23,7 +23,7 @@
           "Achieved Top 3 placement (tie) in MLH Production Engineering Hackathon",
           "Simulated production-grade monitoring and alerting workflows for proactive system reliability"
         ],
-        "acheivements": [
+        "achievements": [
             "🏆 Achievements & Results",
             "🥉 Overall: Tied for 3rd Place",
             "⚡ Incident Response: Tied for 2nd Place",
@@ -33,5 +33,28 @@
         ],
         "github": "https://github.com/jabhandari/LatencyLens",
         "featured": true
-    }
+    },
+    {
+        "title": "Open Source Contribution – Hyperledger Identus",
+        "description": "Contributed to the Hyperledger Identus SDK TS by adding an end-to-end test for mediator message pickup after wallet restore. Worked within a large TypeScript monorepo and followed real-world open-source workflows.",
+        "tech": [
+            "TypeScript",
+            "Nx",
+            "Cucumber",
+            "E2E Testing"
+        ],
+        "highlights": [
+          "Contributed to the Hyperledger Identus SDK TS by adding an end-to-end test for mediator message pickup after wallet restore",
+          "Worked within a large TypeScript monorepo and followed real-world open-source workflows"
+        ],
+         "achievements": [
+    "Merged contribution into an active Hyperledger Identus SDK repository",
+    "Improved test coverage for a critical wallet recovery + messaging scenario",
+    "Collaborated with maintainers and adapted to project-specific workflows"
+  ],
+        "github": "https://github.com/hyperledger-identus/sdk-ts/pull/545",
+        "featured": true
+}
 ]
+
+
