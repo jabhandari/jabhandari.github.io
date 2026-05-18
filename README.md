@@ -87,15 +87,21 @@ components/
   Hero.tsx
   Experience.tsx
   ExperienceCards.tsx
+  featured.tsx
+  featuredCards.tsx
   Projects.tsx
-  ProjectsCard.tsx
+  ProjectsCards.tsx
 
 data/
   experience.json
+  featured.json
   projects.json
 
 public/
   images.jpg
+  webi1.png
+  webi2.png
+  Juhi Bhandari.pdf
 
 next.config.ts
 package.json

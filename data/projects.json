@@ -12,15 +12,14 @@
     ],
     "highlights": [
       "Built and deployed a full-stack developer productivity platform enabling users to log daily work entries (tasks, blockers, learnings) stored as date-indexed MongoDB documents.",
-      "Implemented JWT-based authentication with bcrypt password hashing to secure REST API routes,and configured CORS for cross-origin deployment.",
+      "Implemented JWT-based authentication with bcrypt password hashing to secure REST API routes, and configured CORS for cross-origin deployment.",
       "Deployed frontend on Vercel and backend on Render with environment-based API configuration"
     ],
-    "github": "https://github.com/jabhandari/devflow",
-    "featured": true
+    "github": "https://github.com/jabhandari/devflow"
   },
   {
     "title": "QuickCard",
-    "description": "Full-stack journaling application for creating and managing daily entries with secure authentication.",
+    "description": "Digital networking card platform for creating shareable profile cards, QR codes, and downloadable PDF resumes.",
     "tech": [
       "React",
       "Vite",
@@ -34,8 +33,7 @@
       "Integrated Puppeteer on the Node.js backend to dynamically render and export server-side PDF resumes from HTML templates.",
       "Designed a decoupled client/server architecture using Axios-based REST API communication between the React frontend and Express backend"
     ],
-    "github": "https://github.com/jabhandari/QuickCard",
-    "featured": true
+    "github": "https://github.com/jabhandari/QuickCard"
   },
   {
     "title": "Web E-Commerce Application",
@@ -50,11 +48,10 @@
     ],
     "highlights": [
       "Developed a server-side e-commerce application with RESTful API endpoints supporting product browsing, category and date-based filtering, and new item creation",
-      "Integrated Multer and Cloudinary for multipart image uploads, enabling cloud-hosted poduct images without local storage dependency",
+      "Integrated Multer and Cloudinary for multipart image uploads, enabling cloud-hosted product images without local storage dependency",
       "Applied JSON-based persistence to manage product and category data, implementing routing and middleware patterns without a database dependency"
     ],
-    "github": "https://github.com/jabhandari/ecommerceApp",
-    "featured": true
+    "github": "https://github.com/jabhandari/ecommerceApp"
   },
   {
     "title": "Superstore Dashboard",
@@ -73,8 +70,7 @@
       "Implemented dynamic filters (region, category, date range) driving KPI cards, monthly sales trends, regional profit comparisons, and top-product rankings.",
       "Modularized data-processing logic into a reusable analysis.py module enabling independent chart generation outside the live dashboard."
     ],
-    "github": "https://github.com/jabhandari/SuperstoreDashboard",
-    "featured": true
+    "github": "https://github.com/jabhandari/SuperstoreDashboard"
   },
   {
     "title": "MERN To-Do List Application",
@@ -91,7 +87,6 @@
       "Enabled dynamic task creation, updates, and deletion.",
       "Improved project setup and environment configuration."
     ],
-    "github": "https://github.com/jabhandari/to-do-list-MERN-",
-    "featured": true
+    "github": "https://github.com/jabhandari/to-do-list-MERN-"
   }
 ]

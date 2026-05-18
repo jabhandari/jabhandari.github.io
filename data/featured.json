@@ -2,7 +2,7 @@
     {
         "event": "MLH Production Engineering Hackathon",
         "title": "LatencyLens",
-        "description": "Full-stack journaling application for creating and managing daily entries with secure authentication and performance monitoring.",
+        "description": "Production monitoring project for capturing API latency, visualizing service health, and triggering downtime alerts.",
         "tech": [
             "Node.js",
             "Express",

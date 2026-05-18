@@ -1,6 +1,6 @@
 export default function Hero() {
     return (
-        <section className="relative flex h-[68vh] min-h-[460px] w-full items-center md:h-[74vh]">    
+        <section id="top" className="relative flex h-[68vh] min-h-[460px] w-full items-center md:h-[74vh]">    
              <div
             className="absolute inset-0 bg-cover bg-center"
             style={{
@@ -11,11 +11,11 @@ export default function Hero() {
 
             <div className="relative z-10 mx-auto w-full max-w-6xl px-6">
                 <div className="mx-auto max-w-3xl text-center">
-                    <p className="text-5xl font-bold leading-tight text-white md:text-6xl">
+                    <h1 className="text-5xl font-bold leading-tight text-white md:text-6xl">
                         Juhi Bhandari
-                    </p>
+                    </h1>
                     <p className="mt-8 text-lg font-medium text-pretty text-gray-300 sm:text-xl/8">
-                        I'm a software developer passionate about building full-stack applications and solving real-world problems through code.
+                        I&apos;m a software developer passionate about building full-stack applications and solving real-world problems through code.
 
                         I enjoy working with modern web technologies and continuously improving my skills in backend systems, APIs, and scalable applications.
                     </p>
